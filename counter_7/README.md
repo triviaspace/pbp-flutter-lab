@@ -25,7 +25,9 @@ setState adalah cara flutter untuk melakukan rebuild wigdet dan turunannya. Keti
 a. Final <br>
 Final (variabel yang menggunakan keyword final) diinialisasi pada saat pertama kali digunakan dan hanya disetel sekali. Dengan kata lain nilai final akan diketahui pada saat run-time. Final dapat digunakan untuk deklarasi variabel immutable yang nilainya sudah ataupun belum diketahui pada saat waktu kompilasi berjalan.
 
-	Misal kita telah menetepkan nilai dari variabel umur = 21, jadi pada saat di compile, nilai variabel sudah diketahui nilainya karena diinialisasi secara langsung dengan sebuah value. Sehingga ketika di kompilasi nilainya sudah ada.
+	Misal kita telah menetepkan nilai dari variabel umur = 21, jadi pada saat di compile, 
+	nilai variabel sudah diketahui nilainya karena diinialisasi secara langsung dengan sebuah value. 
+	Sehingga ketika di kompilasi nilainya sudah ada.
   
 b. Const <br>
 Const dapat digunakan untuk deklarasi variabel immutable yang nilainya bersifat konstan dan harus sudah diketahui pada saat waktu kompilasi (Compile time) berjalan, artinya adalah nilai dari variabel tersebut harus sudah di berikan value secara langsung. Artinya ketika di-compile, nilai variabel sudah diketahui, variabelnya sudah diberi nilai secara langsung.
