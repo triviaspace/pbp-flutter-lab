@@ -71,3 +71,12 @@ Navigator menggunakan struktur data tipe stack. Stack ini digunakan untuk layar 
 1. Menambahkan drawer untuk menu counter, form, dan data budget
 2. Menambahkan halaman form dengan input (berupa string, integer, dropdown, atau button). Input yang telah diambil akan dimasukkan kedalam list untuk disimpan agar bisa ditampilkan pada halaman budget data
 3. Menambahkan halaman budget data untuk menunjukkan data yang sudah diinput pengguna dengan menggunakan ListView.Builder agar setiap objek pada list dapat ditunjukkan
+
+# Tugas 9
+## Pengambilan data JSON tanpa membuat model 
+
+## Widget yang dipakai
+
+## Mekanisme pengambilan data dari JSON hingga dapat ditampilkan pada Flutter
+
+## Implementasi Tugas 9
