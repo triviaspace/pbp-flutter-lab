@@ -1,3 +1,4 @@
+import 'package:counter_7/page/mywatchlist_page.dart';
 import 'package:flutter/material.dart';
 import 'page/form.dart';
 import 'page/data.dart';
@@ -126,6 +127,17 @@ class _MyHomePageState extends State<MyHomePage> {
                 );
               },
             ),
+            ListTile(
+                title: const Text('My Watchlist'),
+                onTap: () {
+                  // Route menu ke halaman watchlist
+                  Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const MyWatchlistPage()),
+                  );
+                },
+              ),
           ],
         ),
       ),

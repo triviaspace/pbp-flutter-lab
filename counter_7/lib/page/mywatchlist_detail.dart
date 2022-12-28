@@ -4,7 +4,7 @@ import 'package:counter_7/main.dart';
 import 'package:counter_7/page/mywatchlist_page.dart';
 import 'package:counter_7/model/mywatchlist.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
+// import 'package:intl/intl.dart';
 
 class MyWatchlistDetailPage extends StatelessWidget {
   const MyWatchlistDetailPage({super.key, required this.watchlist});
