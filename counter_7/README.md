@@ -73,10 +73,30 @@ Navigator menggunakan struktur data tipe stack. Stack ini digunakan untuk layar 
 3. Menambahkan halaman budget data untuk menunjukkan data yang sudah diinput pengguna dengan menggunakan ListView.Builder agar setiap objek pada list dapat ditunjukkan
 
 # Tugas 9
-## Pengambilan data JSON tanpa membuat model 
+## Pengambilan data JSON tanpa membuat model
+Kita bisa mengambil data JSON tanpa membuat model, tetapi akan tidak praktis apabila data JSON banyak. Data JSON yang banyak akan menambah risiko terjadi ketidaksesuaian struktur sehingga susah untuk kita memperbaikinya. Selain itu, pembuatan model akan menjaga kejelasan kode dan juga efisiensi.
 
 ## Widget yang dipakai
+1. Text -> memberikan style pada tulisan
+2. Row and Column -> menyusun tata letak isi widget secara horizontal dan vertikal
+3. Container -> menampung widget-widget agar dapat dimodifikasi secara bersamaan
+4. Visibility -> menyembunyikan child didalamnya dengan kondisi tertentu
+5. MainAxisAlignment -> memposisikan children pada sumbu utama row dan column
+6. Center -> membuat posisi children ke tengah
+7. Navigator -> mengelola route pada program menggunakan Stack
+8. Expanded, memperluas child dari baris dan kolom untuk mengisi ruang yang ada
+9. Drawer -> membuat panel di sisi layar agar user bisa mengganti halaman
+10. Form -> mengelompokkan widget-widget form yang diperlukan
+11. Future Builder -> membuat widget berdasarkan snapshot yang diambil dari Future
+12. TextSpan -> Menampilkan teks immutable secara merentang
+13. SizedBox ->  Menampilkan sebuah box dengan ukuran tertentu
 
 ## Mekanisme pengambilan data dari JSON hingga dapat ditampilkan pada Flutter
+Menambahkan depedensi HTTP, lalu melakukan GET pada data json yang selanjutnya dikonversikan ke dalam suatu model yang dibuat. Setelah itu, data json ditampilkan dengan menggunakan FutureBuilder.
 
 ## Implementasi Tugas 9
+1. Menambahkan menu mywatchlist pada drawer dengan ListTile
+2. Membuat file dart baru di dalam model yang berisi code dari quicktype
+3. Membuat file baru untuk memuat data-data pada tugas 3 Django dan menambahkan link data tersebut agar kita dapat mengambil dan menampilkan data menggunakan fetch
+4. Menampilkan data dengan ListView.Builder dan menulis code dalam OnTap() agar film dapat ditekan dan dapat dilihat detailnya
+5. Menambahkan button pada paling bawah laman detail yang akan mengembalikan pengguna ke halaman page mywatchlist
